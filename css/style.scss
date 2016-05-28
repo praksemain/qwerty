@@ -1,0 +1,79 @@
+$default-font: Corbel;
+$red: #AA1A23;
+body {
+  font-family: $default-font;
+  font-size: 12pt;
+}
+
+.img-center {
+  margin: 0 auto;
+}
+
+.logo {
+  height: 150px;
+}
+
+.navbar {
+  border-radius: 0;
+  
+  .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+    letter-spacing: 2px;
+    font-size: 22px;
+  }
+  
+  .navbar-collapse {
+    text-align: center;
+  }
+}
+
+.nav>li>a {
+  padding: 25px;
+  margin: 3px;
+
+}
+.nav>li {
+  border-right: 1px solid $red;
+}
+
+.nav>li:first-child {
+  border-left: 1px solid $red;
+}
+
+.navbar-default {
+  border-color: $red;
+  background: white;
+  text-align: center;
+
+  .navbar-nav>li>a {
+    color: black;
+  }
+  .navbar-toggle {
+    border-color: $red;
+    border-radius: 0;
+
+    .icon-bar {
+      background-color: $red;
+    }
+  }
+
+  .navbar-toggle:hover, .navbar-toggle:focus {
+    background-color: $red
+  }
+
+  .navbar-toggle:hover .icon-bar, .navbar-toggle:focus .icon-bar {
+    background-color: white;
+  }
+
+  .navbar-collapse, .navbar-form {
+    border-color: $red;
+  }
+
+  .navbar-nav>li>a:hover, .navbar-nav>li>a:focus {
+    color: white;
+    background-color: $red;
+  }
+
+}

@@ -1,0 +1,53 @@
+body {
+  font-family: Corbel;
+  font-size: 12pt; }
+
+.img-center {
+  margin: 0 auto; }
+
+.logo {
+  height: 150px; }
+
+.navbar {
+  border-radius: 0; }
+  .navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+    letter-spacing: 2px;
+    font-size: 22px; }
+  .navbar .navbar-collapse {
+    text-align: center; }
+
+.nav > li > a {
+  padding: 25px;
+  margin: 3px; }
+
+.nav > li {
+  border-right: 1px solid #AA1A23; }
+
+.nav > li:first-child {
+  border-left: 1px solid #AA1A23; }
+
+.navbar-default {
+  border-color: #AA1A23;
+  background: white;
+  text-align: center; }
+  .navbar-default .navbar-nav > li > a {
+    color: black; }
+  .navbar-default .navbar-toggle {
+    border-color: #AA1A23;
+    border-radius: 0; }
+    .navbar-default .navbar-toggle .icon-bar {
+      background-color: #AA1A23; }
+  .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: #AA1A23; }
+  .navbar-default .navbar-toggle:hover .icon-bar, .navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: white; }
+  .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #AA1A23; }
+  .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: white;
+    background-color: #AA1A23; }
+
+/*# sourceMappingURL=style.css.map */
