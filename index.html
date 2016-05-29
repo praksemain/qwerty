@@ -47,28 +47,43 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h2 class="text-center">Kontakti</h2>
+                <hr>
+                    <h2 class="text-center"><strong>Kontakti</strong></h2>
+                <hr>
             </div>
         </div>
         <div class="row">
             <div class="col-md-4" align="center">
                 <span class="glyphicon glyphicon-earphone"></span>
                 <br>
-                <p>+371 29 101 900</p>
+                <p><strong>Kontakttālrunis</strong><br>+371 29 101 900</p>
             </div>
             <div class="col-md-4" align="center">
                 <span class="glyphicon glyphicon-envelope"></span>
                 <br>
-                <p>info@mainark.lv</p>
+                <p><strong>E-pasts</strong><br>info@mainark.lv</p>
             </div>
             <div class="col-md-4" align="center">
                 <span class="glyphicon glyphicon-map-marker"></span>
                 <br>
-                <p>Vienības gatve 20B <br> Rīga <br> LV-1004</p>
+                <p><strong>Adrese</strong><br>Vienības gatve 20B <br> Rīga <br> LV-1004</p>
             </div>
         </div>
     </div>
+    <div id="map"></div>
+    <script>
+        function initMap() {
+            var mapDiv = document.getElementById('map');
+            var map = new google.maps.Map(mapDiv, {
+                center: {lat: 56.9308043, lng: 24.0914186},
+                zoom: 16
+            });
+        }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?callback=initMap"
+            async defer></script>
 </section>
+
 <footer>
     <div class="container">
         <div class="row">
