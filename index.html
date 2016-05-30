@@ -37,7 +37,7 @@
                     <li><a href="#">Rezerves daļas</a></li>
                     <li><a href="#">Pakalpojumi</a></li>
                     <li><a href="#">Par mums</a></li>
-                    <li><a href="#">Kontakti</a></li>
+                    <li><a href="#contacts">Kontakti</a></li>
                 </ul>
             </div>
          </div>
@@ -79,9 +79,46 @@
                 zoom: 16
             });
         }
+
     </script>
     <script src="https://maps.googleapis.com/maps/api/js?callback=initMap"
             async defer></script>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12" align="center">
+                <span class="glyphicon glyphicon-send">
+                </span>
+                <p><strong>Nosūtīt ziņu</strong></p>
+            </div>
+            <form role="form">
+                <div class="row">
+                    <div class="form-group col-md-4">
+                        <label>Vārds</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label>E-pasts</label>
+                        <input type="email" class="form-control">
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label>Kontakttālrunis</label>
+                        <input type="tel" class="form-control">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group col-md-12">
+                        <label>Ziņa</label>
+                        <textarea class="form-control" rows=10"></textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12" align="center">
+                        <button type="sumbit" class="btn btn-default">Nosūtīt</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
 </section>
 
 <footer>

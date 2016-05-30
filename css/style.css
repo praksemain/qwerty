@@ -1,6 +1,6 @@
 body {
   font-family: Corbel;
-  font-size: 14pt; }
+  font-size: 20px; }
 
 h1,
 h2,
@@ -21,7 +21,7 @@ p {
 .img-center {
   margin: 0 auto; }
 
-span.glyphicon-earphone, span.glyphicon-envelope, span.glyphicon-map-marker {
+span.glyphicon-earphone, span.glyphicon-envelope, span.glyphicon-map-marker, span.glyphicon-send {
   font-size: 70px;
   color: #AA1A23; }
 
@@ -31,18 +31,44 @@ span.glyphicon-earphone, span.glyphicon-envelope, span.glyphicon-map-marker {
 footer p {
   margin: 0;
   padding: 50px 0;
-  font-size: 14px; }
+  font-size: 18px; }
 
 footer {
-  background: white;
-  color: black; }
+  background: #AA1A23;
+  color: white; }
 
 .logo-mainark {
   display: none; }
 
 #map {
   width: 100%;
-  height: 600px; }
+  height: 500px;
+  margin: 15px 0 15px 0; }
+
+.form-control {
+  font-size: 20px;
+  height: 50px;
+  border-radius: 0;
+  border-color: rgba(170, 26, 35, 0.25); }
+
+.btn-default {
+  background-color: #AA1A23;
+  color: white;
+  border-radius: 0;
+  border-color: #AA1A23;
+  height: 50px;
+  width: 120px;
+  font-size: 20px;
+  margin-bottom: 15px; }
+
+.btn-default:hover, .btn-default:focus {
+  background-color: white;
+  color: #AA1A23;
+  border-color: #AA1A23; }
+
+.form-control:focus {
+  border-color: #AA1A23;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(170, 26, 35, 0.25); }
 
 @media (min-width: 768px) {
   .logo-mainark {

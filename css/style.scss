@@ -1,9 +1,11 @@
 $default-font: Corbel;
 $red: #AA1A23;
+$transpred: rgba(170, 26, 35, 0.25);
+$fontsize: 20px;
 $grey: #333;
 body {
   font-family: $default-font;
-  font-size: 14pt;
+  font-size: $fontsize;
 }
 
 h1,
@@ -18,7 +20,7 @@ h6 {
 
 hr {
   max-width: 500px;
-  border-color: rgba(170, 26, 35, 0.25);
+  border-color: $transpred;
 }
 
 p {
@@ -29,7 +31,7 @@ p {
   margin: 0 auto;
 }
 
-span.glyphicon-earphone, span.glyphicon-envelope, span.glyphicon-map-marker {
+span.glyphicon-earphone, span.glyphicon-envelope, span.glyphicon-map-marker, span.glyphicon-send {
   font-size: 70px;
   color: $red;
 }
@@ -41,12 +43,12 @@ span.glyphicon-earphone, span.glyphicon-envelope, span.glyphicon-map-marker {
 footer p {
   margin: 0;
   padding: 50px 0;
-  font-size: 14px;
+  font-size: 18px;
 }
 
 footer {
-  background: white;
-  color: black;
+  background: $red;
+  color: white;
 }
 
 .logo-mainark {
@@ -55,7 +57,37 @@ footer {
 
 #map {
   width: 100%;
-  height: 600px;
+  height: 500px;
+  margin: 15px 0 15px 0;
+}
+
+.form-control {
+  font-size: $fontsize;
+  height: 50px;
+  border-radius: 0;
+  border-color: $transpred;
+}
+
+.btn-default {
+  background-color: $red;
+  color: white;
+  border-radius: 0;
+  border-color: $red;
+  height: 50px;
+  width: 120px;
+  font-size: $fontsize;
+  margin-bottom: 15px;
+}
+
+.btn-default:hover, .btn-default:focus {
+  background-color: white;
+  color: $red;
+  border-color: $red;
+}
+
+.form-control:focus {
+  border-color: $red;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px $transpred;
 }
 
 @media (min-width:768px) {
