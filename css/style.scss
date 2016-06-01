@@ -9,13 +9,19 @@ body {
 }
 
 h1,
-h2,
+h2{
+  letter-spacing: 1px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
 h3,
 h4,
 h5,
 h6 {
   letter-spacing: 1px;
-  font-size: 40px;
+  font-size: 30px;
+  font-weight: bold;
 }
 
 hr {
@@ -31,11 +37,11 @@ p {
   margin: 0 auto;
 }
 
-span.glyphicon-earphone, span.glyphicon-envelope, span.glyphicon-map-marker, span.glyphicon-send {
+span.glyphicon-earphone, span.glyphicon-envelope, span.glyphicon-map-marker {
   font-size: 70px;
   color: $red;
+  margin-top: 15px;
 }
-
 .logo {
   height: 150px;
 }
@@ -58,7 +64,6 @@ footer {
 #map {
   width: 100%;
   height: 500px;
-  margin: 15px 0 15px 0;
 }
 
 .form-control {
@@ -66,17 +71,31 @@ footer {
   height: 50px;
   border-radius: 0;
   border-color: $transpred;
+  margin-bottom: 15px;
 }
 
 .btn-default {
+  background-color: white;
+  color: $red;
+  border-radius: 0;
+  border-color: $red;
+  font-size: $fontsize;
+}
+
+
+.btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default:active.focus, .btn-default:active:focus, .btn-default:active:hover, .open>.dropdown-toggle.btn-default.focus, .open>.dropdown-toggle.btn-default:focus, .open>.dropdown-toggle.btn-default:hover {
+  background-color: $transpred;
+  color: $red;
+  border-color: $red;
+  outline: none;
+}
+
+.btn-primary {
   background-color: $red;
   color: white;
   border-radius: 0;
   border-color: $red;
-  height: 50px;
-  width: 120px;
   font-size: $fontsize;
-  margin-bottom: 15px;
 }
 
 .btn-default:hover, .btn-default:focus {
@@ -85,9 +104,53 @@ footer {
   border-color: $red;
 }
 
+ .btn-primary:hover, .btn-primary:focus {
+  background-color: white;
+  color: $red;
+  border-color: $red;
+}
+
+.btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover, .open>.dropdown-toggle.btn-primary.focus, .open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover {
+  background-color: $transpred;
+  color: $red;
+  border-color: $red;
+  outline: none;
+}
+
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
+  outline: none;
+  background-color: $transpred;
+  color: $red;
+  border-color: $red;
+}
 .form-control:focus {
   border-color: $red;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px $transpred;
+}
+
+.modal-content {
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+}
+
+.modal-header {
+  border-bottom-color: $red;
+  background-color: $red;
+  color: white;
+}
+
+.modal-footer {
+  border-top-color: $red;
+}
+
+.form-control-feedback {
+  line-height: 50px;
+}
+
+.btn-primary.disabled.focus, .btn-primary.disabled:focus, .btn-primary.disabled:hover, .btn-primary[disabled].focus, .btn-primary[disabled]:focus, .btn-primary[disabled]:hover, fieldset[disabled] .btn-primary.focus, fieldset[disabled] .btn-primary:focus, fieldset[disabled] .btn-primary:hover {
+  background-color: $transpred;
+  border-color: $red;
 }
 
 @media (min-width:768px) {
