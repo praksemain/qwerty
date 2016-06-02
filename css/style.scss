@@ -3,6 +3,12 @@ $red: #AA1A23;
 $transpred: rgba(170, 26, 35, 0.25);
 $fontsize: 20px;
 $grey: #333;
+
+html, body {
+  height: 100%;
+  width: 100%
+}
+
 body {
   font-family: $default-font;
   font-size: $fontsize;
@@ -153,12 +159,26 @@ footer {
   border-color: $red;
 }
 
+#main {
+  background: url('../img/main.jpg');
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 @media (min-width:768px) {
-  .logo-mainark {
-    display: inherit;
+  .brand-logo {
+    height: 70px;
   }
-  .navbar-header {
-    display: none;
+
+  .navbar-brand {
+    padding-top: 0;
+    padding-bottom: 0;
   }
 
   .navbar {
@@ -168,7 +188,7 @@ footer {
       display: inline-block;
       float: none;
       vertical-align: top;
-      letter-spacing: 2px;
+      letter-spacing: 1px;
       font-size: 22px;
     }
 
@@ -179,29 +199,20 @@ footer {
 
   .nav > li > a {
     padding: 25px;
-    margin: 2px;
-
-  }
-  .nav > li {
-    border-right: 1px solid white;
-  }
-
-  .nav > li:first-child {
-    border-left: 1px solid white;
   }
 
   .navbar-default {
-    background: $red;
+    background: rgba(255,255,255,0.8);
     text-align: center;
     border: none;
 
     .navbar-nav > li > a {
-      color: white;
+      color: $red;
     }
 
     .navbar-nav > li > a:hover, .navbar-nav > li > a:focus {
-      color: $red;
-      background-color: white;
+      color: white;
+      background-color: $red;
     }
 
   }

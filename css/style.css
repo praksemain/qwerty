@@ -1,3 +1,7 @@
+html, body {
+  height: 100%;
+  width: 100%; }
+
 body {
   font-family: Corbel;
   font-size: 20px; }
@@ -123,12 +127,24 @@ footer {
   background-color: rgba(170, 26, 35, 0.25);
   border-color: #AA1A23; }
 
-@media (min-width: 768px) {
-  .logo-mainark {
-    display: inherit; }
+#main {
+  background: url("../img/main.jpg");
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
 
-  .navbar-header {
-    display: none; }
+@media (min-width: 768px) {
+  .brand-logo {
+    height: 70px; }
+
+  .navbar-brand {
+    padding-top: 0;
+    padding-bottom: 0; }
 
   .navbar {
     border-radius: 0; }
@@ -136,30 +152,23 @@ footer {
       display: inline-block;
       float: none;
       vertical-align: top;
-      letter-spacing: 2px;
+      letter-spacing: 1px;
       font-size: 22px; }
     .navbar .navbar-collapse {
       text-align: center; }
 
   .nav > li > a {
-    padding: 25px;
-    margin: 2px; }
-
-  .nav > li {
-    border-right: 1px solid white; }
-
-  .nav > li:first-child {
-    border-left: 1px solid white; }
+    padding: 25px; }
 
   .navbar-default {
-    background: #AA1A23;
+    background: rgba(255, 255, 255, 0.8);
     text-align: center;
     border: none; }
     .navbar-default .navbar-nav > li > a {
-      color: white; }
+      color: #AA1A23; }
     .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-      color: #AA1A23;
-      background-color: white; } }
+      color: white;
+      background-color: #AA1A23; } }
 @media (max-width: 767px) {
   .brand-logo {
     height: 50px; }
