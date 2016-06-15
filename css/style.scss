@@ -1,8 +1,8 @@
-$default-font: Ebrima;
+$default-font: 'Roboto Condensed', serif;
 $red: #AA1A23;
 $transpred: rgba(170, 26, 35, 0.25);
-$light-grey: #f7f6f6;
-$fontsize: 20px;
+$light-grey: #F3F3F3;
+$fontsize: 18px;
 $grey: #333;
 
 html, body {
@@ -11,7 +11,7 @@ html, body {
 }
 
 body {
-  font-family: $default-font;
+  font-family: 'Roboto Condensed', serif;
   font-size: $fontsize;
 }
 
@@ -25,8 +25,7 @@ h3,
 h4,
 h5,
 h6 {
-  letter-spacing: 1px;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: bold;
 }
 
@@ -38,20 +37,49 @@ hr {
 p {
   font-size: $fontsize;
 }
-#contacts {
-  background-color: white;
-}
+
 .img-center {
   margin: 0 auto;
 }
 
-span.glyphicon-earphone, span.glyphicon-envelope, span.glyphicon-map-marker {
+.contacts-icons i {
   font-size: 50px;
-  color: $red;
+  color: white;
+  border-radius: 50px;
+  background-color: $red;
   margin-top: 15px;
-}
-.logo {
+  line-height: 100px;
+  width: 100px;
   height: 100px;
+  transition: all .4s;
+}
+
+.contacts-icons i:hover {
+  background-color: white;
+  color: $red;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.services-icons i{
+  font-size: 50px;
+  color: $grey;
+  border-radius: 50px;
+  line-height: 100px;
+  width: 100px;
+  height: 100px;
+  transition: all .4s;
+}
+
+.services-icons i:hover {
+  background-color: white;
+  color: $grey;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.logo {
+  height: 120px;
 }
 
 footer p {
@@ -76,10 +104,9 @@ footer {
 
 .form-control {
   font-size: $fontsize;
-  height: 50px;
+  height: 40px;
   border-radius: 0;
   border-color: $transpred;
-  margin-bottom: 15px;
 }
 
 .btn-default {
@@ -119,7 +146,7 @@ footer {
 }
 
 .btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover, .open>.dropdown-toggle.btn-primary.focus, .open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover {
-  background-color: $transpred;
+  background-color: white;
   color: $red;
   border-color: $red;
   outline: none;
@@ -127,7 +154,7 @@ footer {
 
 .btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
   outline: none;
-  background-color: $transpred;
+  background-color: white;
   color: $red;
   border-color: $red;
 }
@@ -137,9 +164,9 @@ footer {
 }
 
 .modal-content {
-  -webkit-border-radius: 0px;
-  -moz-border-radius: 0px;
-  border-radius: 0px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
 }
 
 .modal-header {
@@ -153,7 +180,7 @@ footer {
 }
 
 .form-control-feedback {
-  line-height: 50px;
+  line-height: 42px;
 }
 
 .btn-primary.disabled.focus, .btn-primary.disabled:focus, .btn-primary.disabled:hover, .btn-primary[disabled].focus, .btn-primary[disabled]:focus, .btn-primary[disabled]:hover, fieldset[disabled] .btn-primary.focus, fieldset[disabled] .btn-primary:focus, fieldset[disabled] .btn-primary:hover {
@@ -161,23 +188,19 @@ footer {
   border-color: $red;
 }
 
-#main-background {
-  background: url('../img/main.jpg');
-  display: table;
-  height: 620px;
-  position: relative;
-  width: 100%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+.header-background {
+  background: url('../img/main.jpg') no-repeat center center;
+  background-attachment: scroll;
+  background-position: center center;
   background-size: cover;
+  text-align: center;
+  color: #FFF;
+  width: 100%;
+  height: 620px;
 }
 
 .overlay {
-  background: -webkit-linear-gradient(left top, rgba(255, 255, 255, 0.9), rgba(183, 78, 85, 0.9));
-  background: -o-linear-gradient(bottom right, rgba(255, 255, 255, 0.9), rgba(183, 78, 85, 0.9));
-  background: -moz-linear-gradient(bottom right, rgba(255, 255, 255, 0.9), rgba(183, 78, 85, 0.9));
-  background: linear-gradient(to bottom right, rgba(255, 255, 255, 0.9), rgba(183, 78, 85, 0.9));
+  background-color: rgba(0, 0, 0, 0.38);
   width: 100%;
   height: 100%;
 }
@@ -199,28 +222,46 @@ footer {
 .brand-logo,
 .navbar-toggle,
 .navbar-nav > li > a {
-  -webkit-transition: all 0.5s linear;
-  -moz-transition: all 0.5s linear;
-  -ms-transition: all 0.5s linear;
-  -o-transition: all 0.5s linear;
-  transition: all 0.5s linear;
+  -webkit-transition: all 0.4s linear;
+  -moz-transition: all 0.4s linear;
+  -ms-transition: all 0.4s linear;
+  -o-transition: all 0.4s linear;
+  transition: all 0.4s linear;
+  transition-delay: 0s;
 }
 
-.navigation .navbar-nav > li > a:after {
-  -webkit-transition: all 0.4s ease 0s;
-  -moz-transition: all 0.4s ease 0s;
-  -ms-transition: all 0.4s ease 0s;
-  -o-transition: all 0.4s ease 0s;
-  transition: all 0.4s ease 0s;
+#services {
+  background-color: $light-grey;
 }
 
-@media (min-width:768px) {
+.wrapper {
+ padding: 0 20px;
+}
+
+.services-layout {
+  z-index: 1;
+  position: static;
+  width: 100%;
+  height: 100%;
+  margin: 20px 0;
+}
+
+.services-layout-padding {
+  padding: 35px;
+  z-index: 2;
+  height: 400px;
+  background-color: white;
+}
+
+
+@media (min-width:992px) {
   .logo-mainark {
     display: inherit;
   }
 
   .brand-logo {
     height: 100px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 
   .navbar {
@@ -231,7 +272,6 @@ footer {
       float: none;
       vertical-align: top;
       font-size: 20px;
-      font-weight: 600;
     }
 
     .navbar-collapse {
@@ -240,46 +280,34 @@ footer {
   }
 
   .nav > li > a {
-    padding: 60px 15px 15px 15px;
-    margin: 5px;
+    padding: 30px 15px 30px 15px;
   }
 
   .navbar-default {
-    background: transparent;
+    background: $red;
     text-align: center;
     border: none;
-    //    border-bottom: 1px solid $red;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
     .navbar-nav > li > a {
-      color: $red;
+      color: white;
     }
 
     .navbar-nav > li > a:hover, .navbar-nav > li > a:focus {
-      color: white;
-      background-color: $red;
+      color: $red;
+      background-color: white;
     }
 
     .navbackground {
       background-color: rgba(255, 255, 255, 0.8);
     }
   }
-  .animated-nav .brand-logo{
-    height: 80px;
-  }
 
-  .animated-nav   .nav > li > a {
-    padding: 35px 15px 15px 15px;
-    margin: 5px;
-
-  }
 }
 
-@media (max-width:767px) {
+@media (max-width:991px) {
   #mobile-indicator {
     display: block;
-  }
-  .navbar .navbar-nav {
-    //  letter-spacing: 2px;
   }
 
   .brand-logo {

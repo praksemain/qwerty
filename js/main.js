@@ -1,4 +1,4 @@
-$(function () {
+/*$(function () {
     jQuery(window).scroll(function () {
         if (jQuery(window).scrollTop() > 1 ) {
             jQuery(".navbar-default").css("background-color", "rgba(255,255,255,0.9)");
@@ -11,3 +11,4 @@ $(function () {
         }
     });
 });
+*/
