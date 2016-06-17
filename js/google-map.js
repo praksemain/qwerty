@@ -10,6 +10,16 @@ function initMap() {
     var marker = new google.maps.Marker({
         position: myLatLng,
         map: map,
-        title: 'SIA Mainark'
+        title: 'SIA Mainark',
+        icon: 'img/map_marker.png'
     });
+
+    var infowindow = new google.maps.InfoWindow({
+        content:"SIA \"Mainark\"" + "<br>" + "Vienības gatve 20B" + "<br>" + "Rīga" + "<br>" + "LV-1004"
+    });
+
+    marker.addListener('click', function() {
+        infowindow.open(map, marker);
+    });
+
 }

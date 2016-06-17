@@ -1,4 +1,4 @@
-$default-font: 'Roboto Condensed', serif;
+$default-font: 'Roboto', serif;
 $red: #AA1A23;
 $transpred: rgba(170, 26, 35, 0.25);
 $light-grey: #F3F3F3;
@@ -11,7 +11,7 @@ html, body {
 }
 
 body {
-  font-family: 'Roboto Condensed', serif;
+  font-family: $default-font;
   font-size: $fontsize;
 }
 
