@@ -98,7 +98,8 @@ footer p {
   color: white;
   width: 100%;
   height: 100%;
-  background-size: cover; }
+  background-size: cover;
+  font-size: 16px; }
 
 .footer-container {
   padding: 30px; }
@@ -243,7 +244,8 @@ header #navigationbar,
 .brand-logo,
 .navbar-toggle,
 .dropdown-menu > li > a,
-.navbar-nav > li > a {
+.navbar-nav > li > a,
+.parts-tab > li > a {
   -webkit-transition: all 0.4s linear;
   -moz-transition: all 0.4s linear;
   -ms-transition: all 0.4s linear;
@@ -315,7 +317,7 @@ header #navigationbar,
   body {
     padding-top: 80px;
     font-family: "Roboto", serif;
-    font-size: 16px; }
+    font-size: 18px; }
 
   .logo-mainark {
     display: inherit; }
@@ -373,9 +375,6 @@ header #navigationbar,
     color: #AA1A23;
     background-color: white; }
 
-  .nav-tabs.nav-justified > li > a {
-    height: 66px; }
-
   .parts-tab a {
     color: white;
     background-color: #AA1A23; }
@@ -384,6 +383,10 @@ header #navigationbar,
     border: none !important;
     background-color: white !important;
     border-top: 4px solid #AA1A23 !important; }
+
+  .parts-tab > li > a {
+    padding: 10px;
+    height: 66px; }
 
   .nav-tabs.nav-justified > li > a {
     border: none; }

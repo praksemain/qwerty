@@ -16,12 +16,12 @@
             <li><a data-toggle="tab" href="#stures-iekarta-tab"><span class="tab-text">Stūres iekārta</span></a></li>
             <li><a data-toggle="tab" href="#balstiekarta-tab"><span class="tab-text">Balstiekārta</span></a></li>
             <li><a data-toggle="tab" href="#transmisija-tab"><span class="tab-text">Transmisija</span></a></li>
-            <li><a data-toggle="tab" href="#"><span class="tab-text">Dzinējs</span></a></li>
-            <li><a data-toggle="tab" href="#"><span class="tab-text">Izplūdes sistēma</span></a></li>
-            <li><a data-toggle="tab" href="#"><span class="tab-text">Elektrosistēma</span></a></li>
-            <li><a data-toggle="tab" href="#"><span class="tab-text">Degvielas sistēma</span></a></li>
-            <li><a data-toggle="tab" href="#"><span class="tab-text">Virsbūves daļas</span></a></li>
-            <li><a data-toggle="tab" href="#"><span class="tab-text">Dažādi</span></a></li>
+            <li><a data-toggle="tab" href="#dzinejs-tab"><span class="tab-text">Dzinējs</span></a></li>
+            <li><a data-toggle="tab" href="#izpludes-sistema-tab"><span class="tab-text">Izplūdes sistēma</span></a></li>
+            <li><a data-toggle="tab" href="#elektrosistema-tab"><span class="tab-text">Elektrosistēma</span></a></li>
+            <li><a data-toggle="tab" href="#degvielas-sistema-tab"><span class="tab-text">Degvielas sistēma</span></a></li>
+            <li><a data-toggle="tab" href="#virsbuves-sistema-tab"><span class="tab-text">Virsbūves daļas</span></a></li>
+            <li><a data-toggle="tab" href="#dazadi-tab"><span class="tab-text">Dažādi</span></a></li>
         </ul>
 
         <div class="tab-content">
@@ -150,7 +150,10 @@
                                         <div class="col-xs-12 col-sm-6 col-md-3 wrapper">
                                             <div class="parts-layout">
                                                 <div class="overlay">
-                                                    <a href="http://www.pimax.it/" target="_blank">                                                     <i class="fa fa-external-link" aria-hidden="true"></i>                                                 </a>                                             </div>
+                                                    <a href="http://www.pimax.it/" target="_blank">
+                                                        <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                    </a>
+                                                </div>
                                                 <div class="parts-layout-padding">
                                                     <img src="images/parts/pimax.png" class="img-responsive">
                                                 </div>
@@ -176,7 +179,9 @@
                                         <div class="parts-layout">
                                             <div class="overlay">
                                                 <a href="http://www.federalmogul.com/" target="_blank">
-                                                    <i class="fa fa-external-link" aria-hidden="true"></i>                                                 </a>                                             </div>
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
                                             <div class="parts-layout-padding">
                                                 <img src="images/parts/ferodo.jpg" class="img-responsive">
                                             </div>
@@ -186,7 +191,9 @@
                                         <div class="parts-layout">
                                             <div class="overlay">
                                                 <a href="http://www.blueprint-adl.co.uk/" target="_blank">
-                                                    <i class="fa fa-external-link" aria-hidden="true"></i>                                                 </a>                                             </div>
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
                                             <div class="parts-layout-padding">
                                                 <img src="images/parts/blue-print.png" class="img-responsive">
                                             </div>
@@ -196,7 +203,9 @@
                                         <div class="parts-layout">
                                             <div class="overlay">
                                                 <a href="http://www.fritechparts.com/" target="_blank">
-                                                    <i class="fa fa-external-link" aria-hidden="true"></i>                                                 </a>                                             </div>
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
                                             <div class="parts-layout-padding">
                                                 <img src="images/parts/fritech.gif" class="img-responsive">
                                             </div>
@@ -206,7 +215,9 @@
                                         <div class="parts-layout">
                                             <div class="overlay">
                                                 <a href="http://www.brembo.com/" target="_blank">
-                                                    <i class="fa fa-external-link" aria-hidden="true"></i>                                                 </a>                                             </div>
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
                                             <div class="parts-layout-padding">
                                                 <img src="images/parts/brembo.jpg" class="img-responsive">
                                             </div>
@@ -231,7 +242,9 @@
                                         <div class="parts-layout">
                                             <div class="overlay">
                                                 <a href="http://www.metellispa.it/" target="_blank">
-                                                    <i class="fa fa-external-link" aria-hidden="true"></i>                                                 </a>                                             </div>
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
                                             <div class="parts-layout-padding">
                                                 <img src="images/parts/metelli.jpg" class="img-responsive">
                                             </div>
@@ -256,7 +269,9 @@
                                         <div class="parts-layout">
                                             <div class="overlay">
                                                 <a href="http://www.brembo.com/" target="_blank">
-                                                    <i class="fa fa-external-link" aria-hidden="true"></i>                                                 </a>                                             </div>
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
                                             <div class="parts-layout-padding">
                                                 <img src="images/parts/brembo.jpg" class="img-responsive">
                                             </div>
@@ -266,7 +281,9 @@
                                         <div class="parts-layout">
                                             <div class="overlay">
                                                 <a href="http://www.graf.it/" target="_blank">
-                                                    <i class="fa fa-external-link" aria-hidden="true"></i>                                                 </a>                                             </div>
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
                                             <div class="parts-layout-padding">
                                                 <img src="images/parts/graf.jpg" class="img-responsive">
                                             </div>
@@ -276,7 +293,9 @@
                                         <div class="parts-layout">
                                             <div class="overlay">
                                                 <a href="http://www.blueprint-adl.co.uk/" target="_blank">
-                                                    <i class="fa fa-external-link" aria-hidden="true"></i>                                                 </a>                                             </div>
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
                                             <div class="parts-layout-padding">
                                                 <img src="images/parts/blue-print.png" class="img-responsive">
                                             </div>
@@ -301,7 +320,9 @@
                                         <div class="parts-layout">
                                             <div class="overlay">
                                                 <a href="http://www.pimax.it/" target="_blank">
-                                                    <i class="fa fa-external-link" aria-hidden="true"></i>                                                 </a>                                             </div>
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
                                             <div class="parts-layout-padding">
                                                 <img src="images/parts/pimax.png" class="img-responsive">
                                             </div>
@@ -311,7 +332,9 @@
                                         <div class="parts-layout">
                                             <div class="overlay">
                                                 <a href="http://gemo.de/" target="_blank">
-                                                    <i class="fa fa-external-link" aria-hidden="true"></i>                                                 </a>                                             </div>
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
                                             <div class="parts-layout-padding">
                                                 <img src="images/parts/gemo-logo.png" class="img-responsive">
                                             </div>
@@ -336,7 +359,9 @@
                                         <div class="parts-layout">
                                             <div class="overlay">
                                                 <a href="http://www.kspg.com/" target="_blank">
-                                                    <i class="fa fa-external-link" aria-hidden="true"></i>                                                 </a>                                             </div>
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
                                             <div class="parts-layout-padding">
                                                 <img src="images/parts/pierburg.png" class="img-responsive">
                                             </div>
@@ -863,8 +888,1775 @@
 
             <!-- Dzinejs -->
 
-            <div id="dzinejs-tab">
+            <div id="dzinejs-tab" class="tab-pane fade">
                 <div class="panel-group" id="dzinejs">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#dzinejs" href="#dzinejs1">
+                                    Virzuļi, čaulas, šāles, gredzeni, vārsti, vadīklas
+                                    <span class="pull-right"><i class="fa fa-angle-down"></i></span></a>
+                            </h4>
+                        </div>
+                        <div id="dzinejs1" class="panel-collapse collapse in">
+                            <div class="panel-body">
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-6 col-md-3 wrapper">
+                                        <div class="parts-layout">
+                                            <div class="overlay">
+                                                <a href="http://www.mahle.com/" target="_blank">
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                            <div class="parts-layout-padding">
+                                                <img src="images/parts/mahle.jpg" class="img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6 col-md-3 wrapper">
+                                        <div class="parts-layout">
+                                            <div class="overlay">
+                                                <a href="http://www.federalmogul.com/" target="_blank">
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                            <div class="parts-layout-padding">
+                                                <img src="images/parts/nural.jpg" class="img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6 col-md-3 wrapper">
+                                        <div class="parts-layout">
+                                            <div class="overlay">
+                                                <a href="http://www.federalmogul.com/" target="_blank">
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                            <div class="parts-layout-padding">
+                                                <img src="images/parts/ae.jpg" class="img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6 col-md-3 wrapper">
+                                        <div class="parts-layout">
+                                            <div class="overlay">
+                                                <a href="http://www.federalmogul.com/" target="_blank">
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                            <div class="parts-layout-padding">
+                                                <img src="images/parts/glyco.png" class="img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6 col-md-3 wrapper">
+                                        <div class="parts-layout">
+                                            <div class="overlay">
+                                                <a href="http://www.federalmogul.com/" target="_blank">
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                            <div class="parts-layout-padding">
+                                                <img src="images/parts/goetze.png" class="img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#dzinejs" href="#dzinejs2">
+                                    Blīvju komplekti, galvas blīves, blīvslēgi, galvas skrūves
+                                    <span class="pull-right"><i class="fa fa-angle-down"></i></span></a>
+                            </h4>
+                        </div>
+                        <div id="dzinejs2" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-6 col-md-3 wrapper">
+                                        <div class="parts-layout">
+                                            <div class="overlay">
+                                                <a href="http://www.reinz.com/" target="_blank">
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                            <div class="parts-layout-padding">
+                                                <img src="images/parts/victor-reinz.jpg" class="img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#dzinejs" href="#dzinejs3">
+                                    Blīvju komplekti, galvas blīves, blīvslēgi, galvas skrūves
+                                    <span class="pull-right"><i class="fa fa-angle-down"></i></span></a>
+                            </h4>
+                        </div>
+                        <div id="dzinejs3" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-6 col-md-3 wrapper">
+                                        <div class="parts-layout">
+                                            <div class="overlay">
+                                                <a href="http://www.gates.com/" target="_blank">
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                            <div class="parts-layout-padding">
+                                                <img src="images/parts/gates.png" class="img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6 col-md-3 wrapper">
+                                        <div class="parts-layout">
+                                            <div class="overlay">
+                                                <a href="http://www.skf.com/" target="_blank">
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                            <div class="parts-layout-padding">
+                                                <img src="images/parts/skf.png" class="img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6 col-md-3 wrapper">
+                                        <div class="parts-layout">
+                                            <div class="overlay">
+                                                <a href="http://www.blueprint-adl.co.uk/" target="_blank">
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                            <div class="parts-layout-padding">
+                                                <img src="images/parts/blue-print.png" class="img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6 col-md-3 wrapper">
+                                        <div class="parts-layout">
+                                            <div class="overlay">
+                                                <a href="http://www.contitech.de/" target="_blank">
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                            <div class="parts-layout-padding">
+                                                <img src="images/parts/ContiTech.png" class="img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6 col-md-3 wrapper">
+                                        <div class="parts-layout">
+                                            <div class="overlay">
+                                                <a href="http://www.dayco.com/" target="_blank">
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                            <div class="parts-layout-padding">
+                                                <img src="images/parts/dayco.png" class="img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#dzinejs" href="#dzinejs4">
+                                    Ķīļsiksnas, rievsiksnas
+                                    <span class="pull-right"><i class="fa fa-angle-down"></i></span></a>
+                            </h4>
+                        </div>
+                        <div id="dzinejs4" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-6 col-md-3 wrapper">
+                                        <div class="parts-layout">
+                                            <div class="overlay">
+                                                <a href="http://www.gates.com/" target="_blank">
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                            <div class="parts-layout-padding">
+                                                <img src="images/parts/gates.png" class="img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6 col-md-3 wrapper">
+                                        <div class="parts-layout">
+                                            <div class="overlay">
+                                                <a href="http://www.contitech.de/" target="_blank">
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                            <div class="parts-layout-padding">
+                                                <img src="images/parts/ContiTech.png" class="img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6 col-md-3 wrapper">
+                                        <div class="parts-layout">
+                                            <div class="overlay">
+                                                <a href="http://www.dayco.com/" target="_blank">
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                            <div class="parts-layout-padding">
+                                                <img src="images/parts/dayco.png" class="img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#dzinejs" href="#dzinejs5">
+                                    Rullīši
+                                    <span class="pull-right"><i class="fa fa-angle-down"></i></span></a>
+                            </h4>
+                        </div>
+                        <div id="dzinejs5" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-6 col-md-3 wrapper">
+                                        <div class="parts-layout">
+                                            <div class="overlay">
+                                                <a href="http://www.skf.com/" target="_blank">
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>                                                 </a>                                             </div>
+                                            <div class="parts-layout-padding">
+                                                <img src="images/parts/skf.png" class="img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6 col-md-3 wrapper">
+                                        <div class="parts-layout">
+                                            <div class="overlay">
+                                                <a href="http://www.schaeffler-aftermarket.de/" target="_blank">
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>                                                 </a>                                             </div>
+                                            <div class="parts-layout-padding">
+                                                <img src="images/parts/ina.png" class="img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6 col-md-3 wrapper">
+                                        <div class="parts-layout">
+                                            <div class="overlay">
+                                                <a href="http://www.blueprint-adl.co.uk/" target="_blank">
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                            <div class="parts-layout-padding">
+                                                <img src="images/parts/blue-print.png" class="img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#dzinejs" href="#dzinejs6">
+                                    Skriemeļi
+                                    <span class="pull-right"><i class="fa fa-angle-down"></i></span></a>
+                            </h4>
+                        </div>
+                        <div id="dzinejs6" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-6 col-md-3 wrapper">
+                                        <div class="parts-layout">
+                                            <div class="overlay">
+                                                <a href="http://www.corteco.com/" target="_blank">
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                            <div class="parts-layout-padding">
+                                                <img src="images/parts/corteco.png" class="img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6 col-md-3 wrapper">
+                                        <div class="parts-layout">
+                                            <div class="overlay">
+                                                <a href="http://www.gates.com/" target="_blank">
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                            <div class="parts-layout-padding">
+                                                <img src="images/parts/gates.png" class="img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#dzinejs" href="#dzinejs7">
+                                    Ķēdes, vadotnes
+                                    <span class="pull-right"><i class="fa fa-angle-down"></i></span></a>
+                            </h4>
+                        </div>
+                        <div id="dzinejs7" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-6 col-md-3 wrapper">
+                                        <div class="parts-layout">
+                                            <div class="overlay">
+                                                <a href="http://www.federalmogul.com/" target="_blank">
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                            <div class="parts-layout-padding">
+                                                <img src="images/parts/ae.jpg" class="img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#dzinejs" href="#dzinejs8">
+                                    Ūdenssūkņi
+                                    <span class="pull-right"><i class="fa fa-angle-down"></i></span></a>
+                            </h4>
+                        </div>
+                        <div id="dzinejs8" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-6 col-md-3 wrapper">
+                                        <div class="parts-layout">
+                                            <div class="overlay">
+                                                <a href="http://www.skf.com/" target="_blank">
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                            <div class="parts-layout-padding">
+                                                <img src="images/parts/skf.png" class="img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6 col-md-3 wrapper">
+                                        <div class="parts-layout">
+                                            <div class="overlay">
+                                                <a href="http://www.graf.it/" target="_blank">
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                            <div class="parts-layout-padding">
+                                                <img src="images/parts/graf.jpg" class="img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6 col-md-3 wrapper">
+                                        <div class="parts-layout">
+                                            <div class="overlay">
+                                                <a href="http://www.aisin-europe.com/" target="_blank">
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>                                                 </a>                                             </div>
+                                            <div class="parts-layout-padding">
+                                                <img src="images/parts/aisin.png" class="img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#dzinejs" href="#dzinejs9">
+                                    Termostati, termoslēdži
+                                    <span class="pull-right"><i class="fa fa-angle-down"></i></span></a>
+                            </h4>
+                        </div>
+                        <div id="dzinejs9" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-6 col-md-3 wrapper">
+                                        <div class="parts-layout">
+                                            <div class="overlay">
+                                                <a href="http://www.behrgroup.com/" target="_blank">
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                            <div class="parts-layout-padding">
+                                                <img src="images/parts/behr.jpg" class="img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6 col-md-3 wrapper">
+                                        <div class="parts-layout">
+                                            <div class="overlay">
+                                                <a href="http://www.vernet.fr/" target="_blank">
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                            <div class="parts-layout-padding">
+                                                <img src="images/parts/vernet.png" class="img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#dzinejs" href="#dzinejs10">
+                                    Visko sajūgi, ventilatori
+                                    <span class="pull-right"><i class="fa fa-angle-down"></i></span></a>
+                            </h4>
+                        </div>
+                        <div id="dzinejs10" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-6 col-md-3 wrapper">
+                                        <div class="parts-layout">
+                                            <div class="overlay">
+                                                <a href="http://www.zf.com/" target="_blank">
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>                                                 </a>                                             </div>
+                                            <div class="parts-layout-padding">
+                                                <img src="images/parts/sachs.jpg" class="img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6 col-md-3 wrapper">
+                                        <div class="parts-layout">
+                                            <div class="overlay">
+                                                <a href="http://www.vierol.de/" target="_blank">
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>                                                 </a>                                             </div>
+                                            <div class="parts-layout-padding">
+                                                <img src="images/parts/vaico.png" class="img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#dzinejs" href="#dzinejs11">
+                                    Radiatori
+                                    <span class="pull-right"><i class="fa fa-angle-down"></i></span></a>
+                            </h4>
+                        </div>
+                        <div id="dzinejs11" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-6 col-md-3 wrapper">
+                                        <div class="parts-layout">
+                                            <div class="overlay">
+                                                <a href="http://www.nissens.dk/" target="_blank">
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>                                                 </a>                                             </div>
+                                            <div class="parts-layout-padding">
+                                                <img src="images/parts/nissens.jpg" class="img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6 col-md-3 wrapper">
+                                        <div class="parts-layout">
+                                            <div class="overlay">
+                                                <a href="http://www.behrgroup.com/" target="_blank">
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                            <div class="parts-layout-padding">
+                                                <img src="images/parts/behr.jpg" class="img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#dzinejs" href="#dzinejs12">
+                                    Eļļas, degvielas, gaisa, salona filtri
+                                    <span class="pull-right"><i class="fa fa-angle-down"></i></span></a>
+                            </h4>
+                        </div>
+                        <div id="dzinejs12" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-6 col-md-3 wrapper">
+                                        <div class="parts-layout">
+                                            <div class="overlay">
+                                                <a href="http://www.mahle.com/" target="_blank">
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>                                                 </a>                                             </div>
+                                            <div class="parts-layout-padding">
+                                                <img src="images/parts/mahle.jpg" class="img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6 col-md-3 wrapper">
+                                        <div class="parts-layout">
+                                            <div class="overlay">
+                                                <a href="http://www.airtopitalia.com/" target="_blank">
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                            <div class="parts-layout-padding">
+                                                <img src="images/parts/zaffo.jpg" class="img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6 col-md-3 wrapper">
+                                        <div class="parts-layout">
+                                            <div class="overlay">
+                                                <a href="http://www.blueprint-adl.co.uk/" target="_blank">
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                            <div class="parts-layout-padding">
+                                                <img src="images/parts/blue-print.png" class="img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6 col-md-3 wrapper">
+                                        <div class="parts-layout">
+                                            <div class="overlay">
+                                                <a href="http://www.wixfilters.com/" target="_blank">
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                            <div class="parts-layout-padding">
+                                                <img src="images/parts/wix.png" class="img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#dzinejs" href="#dzinejs13">
+                                    AAK hidrofiltri
+                                    <span class="pull-right"><i class="fa fa-angle-down"></i></span></a>
+                            </h4>
+                        </div>
+                        <div id="dzinejs13" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-6 col-md-3 wrapper">
+                                        <div class="parts-layout">
+                                            <div class="overlay">
+                                                <a href="http://www.vierol.de/" target="_blank">
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>                                                 </a>                                             </div>
+                                            <div class="parts-layout-padding">
+                                                <img src="images/parts/vaico.png" class="img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Izpludes sistema -->
+
+            <div id="izpludes-sistema-tab" class="tab-pane fade">
+                <div class="panel-group" id="izpludes-sistema">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#izpludes-sistema" href="#izpludes-sistema1">
+                                    Izplūdes caurules, klusinātāji, blīves, atsaites, katalizatori
+                                    <span class="pull-right"><i class="fa fa-angle-down"></i></span></a>
+                            </h4>
+                        </div>
+                        <div id="izpludes-sistema1" class="panel-collapse collapse in">
+                            <div class="panel-body">
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-6 col-md-3 wrapper">
+                                        <div class="parts-layout">
+                                            <div class="overlay">
+                                                <a href="http://www.walkerexhaust.com/" target="_blank">
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                            <div class="parts-layout-padding">
+                                                <img src="images/parts/walker.png" class="img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6 col-md-3 wrapper">
+                                        <div class="parts-layout">
+                                            <div class="overlay">
+                                                <a href="http://www.bosal.com/" target="_blank">
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                            <div class="parts-layout-padding">
+                                                <img src="images/parts/bosal.png" class="img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6 col-md-3 wrapper">
+                                        <div class="parts-layout">
+                                            <div class="overlay">
+                                                <a href="http://www.eberspaecher.com/" target="_blank">
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                            <div class="parts-layout-padding">
+                                                <img src="images/parts/eberspacher.png" class="img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Elektrosistema -->
+
+            <div id="elektrosistema-tab" class="tab-pane fade">
+                <div class="panel-group" id="elektrosistema">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#elektrosistema" href="#elektrosistema1">
+                                    Starteri, ģeneratori
+                                    <span class="pull-right"><i class="fa fa-angle-down"></i></span></a>
+                            </h4>
+                        </div>
+                        <div id="elektrosistema1" class="panel-collapse collapse in">
+                            <div class="panel-body">
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-6 col-md-3 wrapper">
+                                        <div class="parts-layout">
+                                            <div class="overlay">
+                                                <a href="http://www.bosch.lv/" target="_blank">
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                            <div class="parts-layout-padding">
+                                                <img src="images/parts/bosch.png" class="img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6 col-md-3 wrapper">
+                                        <div class="parts-layout">
+                                            <div class="overlay">
+                                                <a href="http://www.elstock.dk/" target="_blank">
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>                                                 </a>                                             </div>
+                                            <div class="parts-layout-padding">
+                                                <img src="images/parts/elstock.png" class="img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6 col-md-3 wrapper">
+                                        <div class="parts-layout">
+                                            <div class="overlay">
+                                                <a href="http://www.eraspares.it/" target="_blank">
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>                                                 </a>                                             </div>
+                                            <div class="parts-layout-padding">
+                                                <img src="images/parts/messmer.jpg" class="img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#elektrosistema" href="#elektrosistema2">
+                                    Sadalītājvāciņi, rotori
+                                    <span class="pull-right"><i class="fa fa-angle-down"></i></span></a>
+                            </h4>
+                        </div>
+                        <div id="elektrosistema2" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-6 col-md-3 wrapper">
+                                        <div class="parts-layout">
+                                            <div class="overlay">
+                                                <a href="http://www.facet.eu/" target="_blank">
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                            <div class="parts-layout-padding">
+                                                <img src="images/parts/facet.png" class="img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#elektrosistema" href="#elektrosistema3">
+                                    Indukcijas spoles
+                                    <span class="pull-right"><i class="fa fa-angle-down"></i></span></a>
+                            </h4>
+                        </div>
+                        <div id="elektrosistema3" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-6 col-md-3 wrapper">
+                                        <div class="parts-layout">
+                                            <div class="overlay">
+                                                <a href="http://www.facet.eu/" target="_blank">
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                            <div class="parts-layout-padding">
+                                                <img src="images/parts/facet.png" class="img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6 col-md-3 wrapper">
+                                        <div class="parts-layout">
+                                            <div class="overlay">
+                                                <a href="http://www.fae.es/" target="_blank">
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                            <div class="parts-layout-padding">
+                                                <img src="images/parts/fae.png" class="img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6 col-md-3 wrapper">
+                                        <div class="parts-layout">
+                                            <div class="overlay">
+                                                <a href="http://www.vierol.de/" target="_blank">
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                            <div class="parts-layout-padding">
+                                                <img src="images/parts/vemo.gif" class="img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6 col-md-3 wrapper">
+                                        <div class="parts-layout">
+                                            <div class="overlay">
+                                                <a href="http://www.eraspares.it/" target="_blank">
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                            <div class="parts-layout-padding">
+                                                <img src="images/parts/era.png" class="img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#elektrosistema" href="#elektrosistema4">
+                                    Svečvadi
+                                    <span class="pull-right"><i class="fa fa-angle-down"></i></span></a>
+                            </h4>
+                        </div>
+                        <div id="elektrosistema4" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-6 col-md-3 wrapper">
+                                        <div class="parts-layout">
+                                            <div class="overlay">
+                                                <a href="http://www.eurocable.se/" target="_blank">
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                            <div class="parts-layout-padding">
+                                                <img src="images/parts/eurocable.png" class="img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#elektrosistema" href="#elektrosistema5">
+                                    Aizdedzes sveces
+                                    <span class="pull-right"><i class="fa fa-angle-down"></i></span></a>
+                            </h4>
+                        </div>
+                        <div id="elektrosistema5" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-6 col-md-3 wrapper">
+                                        <div class="parts-layout">
+                                            <div class="overlay">
+                                                <a href="http://denso-europe.com/" target="_blank">
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                            <div class="parts-layout-padding">
+                                                <img src="images/parts/denso.jpg" class="img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6 col-md-3 wrapper">
+                                        <div class="parts-layout">
+                                            <div class="overlay">
+                                                <a href="http://www.bosch.lv/" target="_blank">
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                            <div class="parts-layout-padding">
+                                                <img src="images/parts/bosch.png" class="img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6 col-md-3 wrapper">
+                                        <div class="parts-layout">
+                                            <div class="overlay">
+                                                <a href="http://www.ngk.com/" target="_blank">
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                            <div class="parts-layout-padding">
+                                                <img src="images/parts/ngk.png" class="img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#elektrosistema" href="#elektrosistema6">
+                                    Kvēlsveces
+                                    <span class="pull-right"><i class="fa fa-angle-down"></i></span></a>
+                            </h4>
+                        </div>
+                        <div id="elektrosistema6" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-6 col-md-3 wrapper">
+                                        <div class="parts-layout">
+                                            <div class="overlay">
+                                                <a href="http://denso-europe.com/" target="_blank">
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                            <div class="parts-layout-padding">
+                                                <img src="images/parts/denso.jpg" class="img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6 col-md-3 wrapper">
+                                        <div class="parts-layout">
+                                            <div class="overlay">
+                                                <a href="http://www.bosch.lv/" target="_blank">
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                            <div class="parts-layout-padding">
+                                                <img src="images/parts/bosch.png" class="img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6 col-md-3 wrapper">
+                                        <div class="parts-layout">
+                                            <div class="overlay">
+                                                <a href="http://www.ngk.com/" target="_blank">
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                            <div class="parts-layout-padding">
+                                                <img src="images/parts/ngk.png" class="img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#elektrosistema" href="#elektrosistema7">
+                                    Devēji
+                                    <span class="pull-right"><i class="fa fa-angle-down"></i></span></a>
+                            </h4>
+                        </div>
+                        <div id="elektrosistema7" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-6 col-md-3 wrapper">
+                                        <div class="parts-layout">
+                                            <div class="overlay">
+                                                <a href="http://www.fae.es/" target="_blank">
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                            <div class="parts-layout-padding">
+                                                <img src="images/parts/fae.png" class="img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6 col-md-3 wrapper">
+                                        <div class="parts-layout">
+                                            <div class="overlay">
+                                                <a href="http://www.vierol.de/" target="_blank">
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                            <div class="parts-layout-padding">
+                                                <img src="images/parts/vemo.gif" class="img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#elektrosistema" href="#elektrosistema8">
+                                    Akumulatori
+                                    <span class="pull-right"><i class="fa fa-angle-down"></i></span></a>
+                            </h4>
+                        </div>
+                        <div id="elektrosistema8" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-6 col-md-3 wrapper">
+                                        <div class="parts-layout">
+                                            <div class="overlay">
+                                                <a href="http://www.berga-batterien.de/" target="_blank">
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                            <div class="parts-layout-padding">
+                                                <img src="images/parts/berga.jpg" class="img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6 col-md-3 wrapper">
+                                        <div class="parts-layout">
+                                            <div class="overlay">
+                                                <a href="http://www.yuasa-battery.co.uk/" target="_blank">
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                            <div class="parts-layout-padding">
+                                                <img src="images/parts/yuasa.gif" class="img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#elektrosistema" href="#elektrosistema9">
+                                    Auto spuldzes 12V
+                                    <span class="pull-right"><i class="fa fa-angle-down"></i></span></a>
+                            </h4>
+                        </div>
+                        <div id="elektrosistema9" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-6 col-md-3 wrapper">
+                                        <div class="parts-layout">
+                                            <div class="overlay">
+                                                <a href="http://www.osram.com/" target="_blank">
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                            <div class="parts-layout-padding">
+                                                <img src="images/parts/osram.png" class="img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#elektrosistema" href="#elektrosistema10">
+                                    Elektromotori
+                                    <span class="pull-right"><i class="fa fa-angle-down"></i></span></a>
+                            </h4>
+                        </div>
+                        <div id="elektrosistema10" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-6 col-md-3 wrapper">
+                                        <div class="parts-layout">
+                                            <div class="overlay">
+                                                <a href="http://www.bosch.lv/" target="_blank">
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                            <div class="parts-layout-padding">
+                                                <img src="images/parts/bosch.png" class="img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6 col-md-3 wrapper">
+                                        <div class="parts-layout">
+                                            <div class="overlay">
+                                                <a href="http://www.vierol.de/" target="_blank">
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                            <div class="parts-layout-padding">
+                                                <img src="images/parts/vemo.gif" class="img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Degvielas sistema -->
+
+            <div id="degvielas-sistema-tab" class="tab-pane fade">
+                <div class="panel-group" id="degvielas-sistema">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#degvielas-sistema" href="#degvielas-sistema1">
+                                    Smidzinātāji dīzeļiem, sprauslas benzīnam un dīzeļiem
+                                    <span class="pull-right"><i class="fa fa-angle-down"></i></span></a>
+                            </h4>
+                        </div>
+                        <div id="degvielas-sistema1" class="panel-collapse collapse in">
+                            <div class="panel-body">
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-6 col-md-3 wrapper">
+                                        <div class="parts-layout">
+                                            <div class="overlay">
+                                                <a href="http://denso-europe.com/" target="_blank">
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                            <div class="parts-layout-padding">
+                                                <img src="images/parts/denso.jpg" class="img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6 col-md-3 wrapper">
+                                        <div class="parts-layout">
+                                            <div class="overlay">
+                                                <a href="http://www.bosch.lv/" target="_blank">
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                            <div class="parts-layout-padding">
+                                                <img src="images/parts/bosch.png" class="img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#degvielas-sistema" href="#degvielas-sistema2">
+                                    Augstspiediena sūkņi dīzeļiem
+                                    <span class="pull-right"><i class="fa fa-angle-down"></i></span></a>
+                            </h4>
+                        </div>
+                        <div id="degvielas-sistema2" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-6 col-md-3 wrapper">
+                                        <div class="parts-layout">
+                                            <div class="overlay">
+                                                <a href="http://denso-europe.com/" target="_blank">
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                            <div class="parts-layout-padding">
+                                                <img src="images/parts/denso.jpg" class="img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6 col-md-3 wrapper">
+                                        <div class="parts-layout">
+                                            <div class="overlay">
+                                                <a href="http://www.bosch.lv/" target="_blank">
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                            <div class="parts-layout-padding">
+                                                <img src="images/parts/bosch.png" class="img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#degvielas-sistema" href="#degvielas-sistema3">
+                                    EGR u.c. vārsti benzīnam un dīzeļiem
+                                    <span class="pull-right"><i class="fa fa-angle-down"></i></span></a>
+                            </h4>
+                        </div>
+                        <div id="degvielas-sistema3" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-6 col-md-3 wrapper">
+                                        <div class="parts-layout">
+                                            <div class="overlay">
+                                                <a href="http://www.kspg-ag.de/" target="_blank">
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                            <div class="parts-layout-padding">
+                                                <img src="images/parts/pierburg.png" class="img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6 col-md-3 wrapper">
+                                        <div class="parts-layout">
+                                            <div class="overlay">
+                                                <a href="http://www.eraspares.it/" target="_blank">
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                            <div class="parts-layout-padding">
+                                                <img src="images/parts/era.png" class="img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#degvielas-sistema" href="#degvielas-sistema4">
+                                    Gaisa masas mērītāji benzīnam un dīzeļiem
+                                    <span class="pull-right"><i class="fa fa-angle-down"></i></span></a>
+                            </h4>
+                        </div>
+                        <div id="degvielas-sistema4" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-6 col-md-3 wrapper">
+                                        <div class="parts-layout">
+                                            <div class="overlay">
+                                                <a href="http://www.kspg-ag.de/" target="_blank">
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                            <div class="parts-layout-padding">
+                                                <img src="images/parts/pierburg.png" class="img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6 col-md-3 wrapper">
+                                        <div class="parts-layout">
+                                            <div class="overlay">
+                                                <a href="http://www.bosch.lv/" target="_blank">
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                            <div class="parts-layout-padding">
+                                                <img src="images/parts/bosch.png" class="img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6 col-md-3 wrapper">
+                                        <div class="parts-layout">
+                                            <div class="overlay">
+                                                <a href="http://www.vierol.de/" target="_blank">
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                            <div class="parts-layout-padding">
+                                                <img src="images/parts/vemo.gif" class="img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#degvielas-sistema" href="#degvielas-sistema5">
+                                    Dīzeļagregātu rezerves daļas
+                                    <span class="pull-right"><i class="fa fa-angle-down"></i></span></a>
+                            </h4>
+                        </div>
+                        <div id="degvielas-sistema5" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-6 col-md-3 wrapper">
+                                        <div class="parts-layout">
+                                            <div class="overlay">
+                                                <a href="http://denso-europe.com/" target="_blank">
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                            <div class="parts-layout-padding">
+                                                <img src="images/parts/denso.jpg" class="img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6 col-md-3 wrapper">
+                                        <div class="parts-layout">
+                                            <div class="overlay">
+                                                <a href="http://www.bosch.lv/" target="_blank">
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                            <div class="parts-layout-padding">
+                                                <img src="images/parts/bosch.png" class="img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#degvielas-sistema" href="#degvielas-sistema6">
+                                    Dīzeļu jaudas palielināšanas bloki
+                                    <span class="pull-right"><i class="fa fa-angle-down"></i></span></a>
+                            </h4>
+                        </div>
+                        <div id="degvielas-sistema6" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-6 col-md-3 wrapper">
+                                        <div class="parts-layout">
+                                            <div class="overlay">
+                                                <a href="http://www.kcr.se/" target="_blank">
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                            <div class="parts-layout-padding">
+                                                <img src="images/parts/kcr.gif" class="img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#degvielas-sistema" href="#degvielas-sistema7">
+                                    Elektriskie degvielas sūkņi
+                                    <span class="pull-right"><i class="fa fa-angle-down"></i></span></a>
+                            </h4>
+                        </div>
+                        <div id="degvielas-sistema7" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-6 col-md-3 wrapper">
+                                        <div class="parts-layout">
+                                            <div class="overlay">
+                                                <a href="http://www.kspg-ag.de/" target="_blank">
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                            <div class="parts-layout-padding">
+                                                <img src="images/parts/pierburg.png" class="img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6 col-md-3 wrapper">
+                                        <div class="parts-layout">
+                                            <div class="overlay">
+                                                <a href="http://www.bosch.lv/" target="_blank">
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                            <div class="parts-layout-padding">
+                                                <img src="images/parts/bosch.png" class="img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Virsbuves dalas -->
+
+            <div id="virsbuves-sistema-tab" class="tab-pane fade">
+                <div class="panel-group" id="virsbuves-sistema">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#virsbuves-sistema" href="#virsbuves-sistema1">
+                                    Logu slotiņas
+                                    <span class="pull-right"><i class="fa fa-angle-down"></i></span></a>
+                            </h4>
+                        </div>
+                        <div id="virsbuves-sistema1" class="panel-collapse collapse in">
+                            <div class="panel-body">
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-6 col-md-3 wrapper">
+                                        <div class="parts-layout">
+                                            <div class="overlay">
+                                                <a href="http://www.federalmogul.com/" target="_blank">
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                            <div class="parts-layout-padding">
+                                                <img src="images/parts/champion.jpg" class="img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6 col-md-3 wrapper">
+                                        <div class="parts-layout">
+                                            <div class="overlay">
+                                                <a href="http://denso-europe.com/" target="_blank">
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                            <div class="parts-layout-padding">
+                                                <img src="images/parts/denso.jpg" class="img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6 col-md-3 wrapper">
+                                        <div class="parts-layout">
+                                            <div class="overlay">
+                                                <a href="http://www.bosch.lv/" target="_blank">
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                            <div class="parts-layout-padding">
+                                                <img src="images/parts/bosch.png" class="img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#virsbuves-sistema" href="#virsbuves-sistema2">
+                                    Slotiņu gumijas
+                                    <span class="pull-right"><i class="fa fa-angle-down"></i></span></a>
+                            </h4>
+                        </div>
+                        <div id="virsbuves-sistema2" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-6 col-md-3 wrapper">
+                                        <div class="parts-layout">
+                                            <div class="overlay">
+                                                <a href="http://swissint.com/" target="_blank">
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                            <div class="parts-layout-padding">
+                                                <img src="images/parts/swissint.gif" class="img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#virsbuves-sistema" href="#virsbuves-sistema3">
+                                    Gaisa atsperes
+                                    <span class="pull-right"><i class="fa fa-angle-down"></i></span></a>
+                            </h4>
+                        </div>
+                        <div id="virsbuves-sistema3" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-6 col-md-3 wrapper">
+                                        <div class="parts-layout">
+                                            <div class="overlay">
+                                                <a href="http://www.lesjoforsab.com/" target="_blank">
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                            <div class="parts-layout-padding">
+                                                <img src="images/parts/kilen.jpg" class="img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#virsbuves-sistema" href="#virsbuves-sistema4">
+                                    Logu, durvju mehānismi
+                                    <span class="pull-right"><i class="fa fa-angle-down"></i></span></a>
+                            </h4>
+                        </div>
+                        <div id="virsbuves-sistema4" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-6 col-md-3 wrapper">
+                                        <div class="parts-layout">
+                                            <div class="overlay">
+                                                <a href="http://www.lesjoforsab.com/" target="_blank">
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                            <div class="parts-layout-padding">
+                                                <img src="images/parts/kilen.jpg" class="img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6 col-md-3 wrapper">
+                                        <div class="parts-layout">
+                                            <div class="overlay">
+                                                <a href="http://www.vierol.de/" target="_blank">
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>                                                 </a>                                             </div>
+                                            <div class="parts-layout-padding">
+                                                <img src="images/parts/vaico.png" class="img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dazadi -->
+
+            <div id="dazadi-tab" class="tab-pane fade">
+                <div class="panel-group" id="dazadi">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#dazadi" href="#dazadi1">
+                                    Bremžu šķidrums, hidroeļļas
+                                    <span class="pull-right"><i class="fa fa-angle-down"></i></span></a>
+                            </h4>
+                        </div>
+                        <div id="dazadi1" class="panel-collapse collapse in">
+                            <div class="panel-body">
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-6 col-md-3 wrapper">
+                                        <div class="parts-layout">
+                                            <div class="overlay">
+                                                <a href="http://www.federalmogul.com/" target="_blank">
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                            <div class="parts-layout-padding">
+                                                <img src="images/parts/ferodo.jpg" class="img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6 col-md-3 wrapper">
+                                        <div class="parts-layout">
+                                            <div class="overlay">
+                                                <a href="https://www.motul.com/" target="_blank">
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                            <div class="parts-layout-padding">
+                                                <img src="images/parts/motul.jpg" class="img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#dazadi" href="#dazadi2">
+                                    Autokosmētika dažāda
+                                    <span class="pull-right"><i class="fa fa-angle-down"></i></span></a>
+                            </h4>
+                        </div>
+                        <div id="dazadi2" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-6 col-md-3 wrapper">
+                                        <div class="parts-layout">
+                                            <div class="overlay">
+                                                <a href="http://www.federalmogul.com/" target="_blank">
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                            <div class="parts-layout-padding">
+                                                <img src="images/parts/ferodo.jpg" class="img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6 col-md-3 wrapper">
+                                        <div class="parts-layout">
+                                            <div class="overlay">
+                                                <a href="http://www.valvoline.com/" target="_blank">
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                            <div class="parts-layout-padding">
+                                                <img src="images/parts/valvoline.png" class="img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#dazadi" href="#dazadi3">
+                                    Hermētiķi, līmes
+                                    <span class="pull-right"><i class="fa fa-angle-down"></i></span></a>
+                            </h4>
+                        </div>
+                        <div id="dazadi3" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-6 col-md-3 wrapper">
+                                        <div class="parts-layout">
+                                            <div class="overlay">
+                                                <a href="http://www.loctite.lv/" target="_blank">
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                            <div class="parts-layout-padding">
+                                                <img src="images/parts/loctite.jpg" class="img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6 col-md-3 wrapper">
+                                        <div class="parts-layout">
+                                            <div class="overlay">
+                                                <a href="http://www.teroson.com/" target="_blank">
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                            <div class="parts-layout-padding">
+                                                <img src="images/parts/teroson.png" class="img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#dazadi" href="#dazadi4">
+                                    Savilcēji
+                                    <span class="pull-right"><i class="fa fa-angle-down"></i></span></a>
+                            </h4>
+                        </div>
+                        <div id="dazadi4" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-6 col-md-3 wrapper">
+                                        <div class="parts-layout">
+                                            <div class="overlay">
+                                                <a href="http://www.normagroup.com/" target="_blank">
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                            <div class="parts-layout-padding">
+                                                <img src="images/parts/norma.png" class="img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#dazadi" href="#dazadi5">
+                                    Degvielas šļauciņas, gaisa caurules
+                                    <span class="pull-right"><i class="fa fa-angle-down"></i></span></a>
+                            </h4>
+                        </div>
+                        <div id="dazadi5" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-6 col-md-3 wrapper">
+                                        <div class="parts-layout">
+                                            <div class="overlay">
+                                                <a href="http://www.gates.com/" target="_blank">
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                            <div class="parts-layout-padding">
+                                                <img src="images/parts/gates.png" class="img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#dazadi" href="#dazadi6">
+                                    Programmatūra
+                                    <span class="pull-right"><i class="fa fa-angle-down"></i></span></a>
+                            </h4>
+                        </div>
+                        <div id="dazadi6" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-6 col-md-3 wrapper">
+                                        <div class="parts-layout">
+                                            <div class="overlay">
+                                                <a href="http://www.teccat.de/" target="_blank">
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                            <div class="parts-layout-padding">
+                                                <img src="images/parts/teccat.png" class="img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6 col-md-3 wrapper">
+                                        <div class="parts-layout">
+                                            <div class="overlay">
+                                                <a href="http://www.futursoft.fi/" target="_blank">
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                            <div class="parts-layout-padding">
+                                                <img src="images/parts/futursoft.jpg" class="img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6 col-md-3 wrapper">
+                                        <div class="parts-layout">
+                                            <div class="overlay">
+                                                <a href="http://www.bosch.lv/" target="_blank">
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                            <div class="parts-layout-padding">
+                                                <img src="images/parts/es-tronic.jpg" class="img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6 col-md-3 wrapper">
+                                        <div class="parts-layout">
+                                            <div class="overlay">
+                                                <a href="https://www.autodata-group.com/" target="_blank">
+                                                    <i class="fa fa-external-link" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                            <div class="parts-layout-padding">
+                                                <img src="images/parts/autodata.jpg" class="img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
                 </div>
             </div>

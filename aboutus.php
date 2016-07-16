@@ -9,8 +9,10 @@
                 <hr>
             </div>
         </div>
-        <div class="container" style="font-size: 20px; text-align: justify">
-
+        <div class="container">
+            <p>
+                Uzņēmums SIA "Mainark" ir dibināts 2013.gada 9.aprīlī. Uzņēmuma galvenā darbības sfēra ir automašīnu rezerves daļu vairumtirdzniecība. Šobrīd uzņēmumā strādā 2 cilvēki. Nākotnē plānojam atvērt mazumtirdzniecības veikalu.
+            </p>
         </div>
     </div>
 </section>
