@@ -1,3 +1,5 @@
+<?php include('./inc/mail.php'); ?>
+
 <?php include('./inc/header.php'); ?>
 
 <section id="contacts">
@@ -70,7 +72,7 @@
                     <div class="form-group">
                         <div class="col-sm-12" align="right">
                             <button type="button" class="btn btn-default" data-dismiss="modal">Aizvērt</button>
-                            <button type="submit" class="btn btn-primary">Nosūtīt <span class="glyphicon glyphicon-send"></span></button>
+                            <button type="submit" name="submit1"  class="btn btn-primary">Nosūtīt <span class="glyphicon glyphicon-send"></span></button>
                         </div>
                     </div>
                 </form>

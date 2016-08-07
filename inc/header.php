@@ -5,9 +5,9 @@
     <title>Mainark</title>
 
     <!-- CSS -->
+    <link href='http://fonts.googleapis.com/css?family=Roboto&subset=latin,greek,greek-ext,latin-ext,cyrillic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrapValidator.min.css">
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/jquery.bxslider.css">
     <link rel="stylesheet" href="css/style.css">
@@ -24,7 +24,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html"><img src="images/logo_white.jpg" class="brand-logo" alt="Mainark mini logo"></a>
+                <a class="navbar-brand" href="index.php"><img src="images/logo_white.jpg" class="brand-logo" alt="Mainark mini logo"></a>
             </div>
             <div class="collapse navbar-collapse">
                 <ul id="navigationbar" class="nav navbar-nav">

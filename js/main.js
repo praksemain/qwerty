@@ -13,7 +13,23 @@
 });
 */
 
-$('.bxslider').bxSlider({
-    mode: 'fade',
-    captions: true
+
+$(document).ready(function(){
+    $('.automarkas').bxSlider({
+        slideWidth: 300,
+        minSlides: 1,
+        maxSlides: 4,
+        moveSlides: 1,
+        pager: false,
+        nextSelector: '#slider-next',
+        prevSelector: '#slider-prev',
+        nextText: '<i class="fa fa-angle-right"></i>',
+        prevText: '<i class="fa fa-angle-left"></i>'
+    });
+
+    $('.bxslider').bxSlider({
+        mode: 'fade',
+        captions: true,
+        pager: false
+    });
 });

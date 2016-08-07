@@ -9,7 +9,7 @@
                     <p>
                         <i class="glyphicon glyphicon-earphone"></i> +371 29 101 900<br>
                         <i class="glyphicon glyphicon-envelope"></i> info@mainark.lv<br>
-                        <i class="glyphicon glyphicon-map-marker"></i> <strong>Faktiskā:</strong> Vienības gatve 20B, Rīga, LV-1004 <br>
+                        <i class="glyphicon glyphicon-map-marker"></i> <strong>Faktiskā:</strong> Vienības gatve 20B, Rīga,<br>LV-1004 <br>
                         <strong>Juridiskā:</strong> Nogāzes iela 2B-47, Ogre, Ogres nov., LV-5001
                     </p>
                 </div>
@@ -30,18 +30,7 @@
     <div class="footer-bottom">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
-                    <div class="footer-menu">
-                        <ul>
-                            <li><a href="./index.php">Sākums</a></li>
-                            <li><a href="./services.php">Pakalpojumi</a></li>
-                            <li><a href="./parts.php">Rezerves daļas</a></li>
-                            <li><a href="./aboutus.php">Par mums</a></li>
-                            <li><a href="./contacts.php">Kontakti</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-6 text-center">
+                <div class="col-md-12 text-center">
                     <p>&copy; SIA Mainark 2016</p>
                 </div>
             </div>
@@ -50,10 +39,11 @@
 </footer>
 <!-- Scripts -->
 <script type="text/javascript" src="js/jquery.js"></script>
-<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC_AbTMDurkHDLdL84jHFuhJU7s40ronn4&callback=initialize"type="text/javascript"></script>
 <script type="text/javascript" src="js/google-map.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/bootstrapValidator.min.js"></script>
+<script type="text/javascript" src="js/contact-form-validation.js"></script>
 <script type="text/javascript" src="js/jquery.bxslider.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
 </body>
