@@ -17,7 +17,7 @@
 $(document).ready(function(){
     $('.automarkas').bxSlider({
         slideWidth: 300,
-        minSlides: 1,
+        minSlides: 2,
         maxSlides: 4,
         moveSlides: 1,
         pager: false,
@@ -29,7 +29,12 @@ $(document).ready(function(){
 
     $('.bxslider').bxSlider({
         mode: 'fade',
+        pager: false,
         captions: true,
-        pager: false
+        nextText: '',
+        prevText: '',
+        useCSS: false,
+        easing: 'jswing',
+
     });
 });

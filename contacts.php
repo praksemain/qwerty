@@ -19,7 +19,7 @@
             <div class="col-sm-6 col-md-3 contacts-icons" align="center">
                 <i class="glyphicon glyphicon-envelope"></i>
                 <h3>E-pasts</h3><p>info@mainark.lv</p>
-                <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#ContactModal">Nosūtīt ziņu</button>
+                <!-- <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#ContactModal">Nosūtīt ziņu</button> -->
             </div>
             <div class="col-sm-6 col-md-3 contacts-icons" align="center">
                 <i class="glyphicon glyphicon-map-marker"></i>

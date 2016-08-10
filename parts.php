@@ -103,8 +103,6 @@
             <div class="slide"><img src="./images/cars-logo/volvo.png"></div>
             <div class="slide"><img src="./images/cars-logo/vw.jpg"></div>
         </div>
-        
-
 
     <div class="nav-tabs-responsive">
         <ul class="nav nav-tabs nav-justified parts-tab">

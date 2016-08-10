@@ -4,23 +4,23 @@
         <div class="container footer-container">
 
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-4 col-sm-4">
                     <h4><strong>Kontakti</strong></h4>
                     <p>
                         <i class="glyphicon glyphicon-earphone"></i> +371 29 101 900<br>
                         <i class="glyphicon glyphicon-envelope"></i> info@mainark.lv<br>
-                        <i class="glyphicon glyphicon-map-marker"></i> <strong>Faktiskā:</strong> Vienības gatve 20B, Rīga,<br>LV-1004 <br>
-                        <strong>Juridiskā:</strong> Nogāzes iela 2B-47, Ogre, Ogres nov., LV-5001
+                        <i class="glyphicon glyphicon-map-marker"></i> Faktiskā: Vienības gatve 20B, Rīga,<br>LV-1004 <br>
+                        Juridiskā: Nogāzes iela 2B-47, Ogre, Ogres nov., LV-5001
                     </p>
                 </div>
 
-                <div class="col-md-4">
+                <div class="col-md-4 col-sm-4">
                     <h4><strong>Rekvizīti</strong></h4>
-                    <p><strong>SIA "Mainark"</strong><br><strong>Reģ.nr.: </strong>LV50103657541<br><strong>A/S SWEDBANK kods: </strong>HABALV22<br><strong>Konts: </strong>LV03HABA0551036383790
+                    <p>SIA "Mainark"<br>Reģ.nr.:LV50103657541<br>A/S SWEDBANK kods: HABALV22<br>Konts: LV03HABA0551036383790
                     </p>
                 </div>
 
-                <div class="col-md-4">
+                <div class="col-md-4 col-sm-4">
                     <h4><strong>Atrašanās vieta</strong></h4>
                     <div id="mini-map"></div>
                 </div>

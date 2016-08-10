@@ -5,12 +5,12 @@
     <title>Mainark</title>
 
     <!-- CSS -->
-    <link href='http://fonts.googleapis.com/css?family=Roboto&subset=latin,greek,greek-ext,latin-ext,cyrillic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrapValidator.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/jquery.bxslider.css">
     <link rel="stylesheet" href="css/style.css">
+
 </head>
 <body>
 <header>
@@ -28,11 +28,11 @@
             </div>
             <div class="collapse navbar-collapse">
                 <ul id="navigationbar" class="nav navbar-nav">
-                    <li><a href="index.php" class="current"><span class="glyphicon glyphicon-home" style="font-size: 15px"></span></a></li>
-                    <li><a href="services.php">Pakalpojumi</a></li>
-                    <li><a href="parts.php">Rezerves daļas</a></li>
-                    <li><a href="aboutus.php">Par mums</a></li>
-                    <li><a href="contacts.php">Kontakti</a></li>
+                    <li><a href="index.php" title=""><span class="glyphicon glyphicon-home" style="font-size: 15px"></span></a></li>
+                    <li><a href="services.php" title="pakalpojumi">Pakalpojumi</a></li>
+                    <li><a href="parts.php" title="rezerves-dalas">Rezerves daļas</a></li>
+                    <li><a href="aboutus.php" title="par-mums">Par mums</a></li>
+                    <li><a href="contacts.php" title="kontakti">Kontakti</a></li>
                 </ul>
             </div>
         </div>
