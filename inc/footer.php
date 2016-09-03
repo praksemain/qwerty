@@ -1,27 +1,26 @@
 <footer>
     <div class="footer-top">
-        <div class="footer-overlay"></div>
         <div class="container footer-container">
 
             <div class="row">
-                <div class="col-md-4 col-sm-4">
-                    <h4><strong>Kontakti</strong></h4>
-                    <p>
-                        <i class="glyphicon glyphicon-earphone"></i> +371 29 101 900<br>
-                        <i class="glyphicon glyphicon-envelope"></i> info@mainark.lv<br>
-                        <i class="glyphicon glyphicon-map-marker"></i> Faktiskā: Vienības gatve 20B, Rīga,<br>LV-1004 <br>
-                        Juridiskā: Nogāzes iela 2B-47, Ogre, Ogres nov., LV-5001
+                <div class="col-md-3 col-sm-3">
+                    <ul>
+                        <li><a href="/">Sākums</a></li>
+                        <li><a href="pakalpojumi">Pakalpojumi</a></li>
+                        <li><a href="rezerves-dalas">Rezerves daļas</a></li>
+                        <li><a href="par-mums">Par mums</a></li>
+                        <li><a href="kontakti">Kontakti</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4 col-sm-5">
+                    <h2><strong>Rekvizīti</strong></h2>
+                    <p>SIA Mainark<br>Reģ.nr.:LV50103657541<br>Juridiskā: Nogāzes iela 2B-47, Ogre, Ogres nov., LV-5001<br>Faktiskā: Vienības gatve 20B, Rīga, LV-1004<br>Kontakttālrunis: +371 29 101 900<br>A/S SWEDBANK kods: HABALV22<br>Konts: LV03HABA0551036383790
                     </p>
                 </div>
 
-                <div class="col-md-4 col-sm-4">
-                    <h4><strong>Rekvizīti</strong></h4>
-                    <p>SIA "Mainark"<br>Reģ.nr.:LV50103657541<br>A/S SWEDBANK kods: HABALV22<br>Konts: LV03HABA0551036383790
-                    </p>
-                </div>
-
-                <div class="col-md-4 col-sm-4">
-                    <h4><strong>Atrašanās vieta</strong></h4>
+                <div class="col-md-5 col-sm-4">
+                    <h2><strong>Atrašanās vieta</strong></h2>
                     <div id="mini-map"></div>
                 </div>
             </div>
@@ -36,7 +35,6 @@
             </div>
         </div>
     </div>
-</footer>
 <!-- Scripts -->
 <script type="text/javascript" src="js/jquery.js"></script>
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC_AbTMDurkHDLdL84jHFuhJU7s40ronn4&callback=initialize"type="text/javascript"></script>
@@ -46,5 +44,6 @@
 <script type="text/javascript" src="js/contact-form-validation.js"></script>
 <script type="text/javascript" src="js/jquery.bxslider.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
+</footer>
 </body>
 </html>

@@ -1,30 +1,16 @@
-/*$(function () {
-    jQuery(window).scroll(function () {
-        if (jQuery(window).scrollTop() > 1 ) {
-            jQuery(".navbar-default").css("background-color", "rgba(255,255,255,0.9)");
-//            jQuery(".navbar-default").css("border-bottom", "1px solid rgba(170, 26, 35, 0.9)");
-            jQuery(".navbar-default").addClass("animated-nav");
-        } else {
-            jQuery(".navbar-default").css("background-color", "transparent");
-//            jQuery(".navbar-default").css("border-bottom", "0");
-            jQuery(".navbar-default").removeClass("animated-nav");
-        }
-    });
-});
-*/
-
 
 $(document).ready(function(){
     $('.automarkas').bxSlider({
-        slideWidth: 300,
+        slideWidth: 200,
         minSlides: 2,
-        maxSlides: 4,
-        moveSlides: 1,
-        pager: false,
-        nextSelector: '#slider-next',
-        prevSelector: '#slider-prev',
-        nextText: '<i class="fa fa-angle-right"></i>',
-        prevText: '<i class="fa fa-angle-left"></i>'
+        maxSlides: 7,
+        slideMargin: 30,
+        ticker: true,
+        speed: 150000,
+        tickerHover: true,
+        onSliderLoad: function(){
+            $(".bxslider-wrap").css("visibility", "visible");
+        }
     });
 
     $('.bxslider').bxSlider({
@@ -35,6 +21,26 @@ $(document).ready(function(){
         prevText: '',
         useCSS: false,
         easing: 'jswing',
-
     });
 });
+
+$('#nav').affix({
+    offset: {
+        top: $('#nav').offset().top
+    }
+});
+
+$(window).scroll(function() {
+    var topHeight = document.getElementById('top-links-container').offsetHeight;
+    if ($(window).width() > 768) {
+        if ($(document).scrollTop() > topHeight) {
+            $('#navigationbar>li>a').addClass('shrink');
+            $('.navbar-brand img').addClass('brand-logo-scroll');
+        } else {
+            $('#navigationbar>li>a').removeClass('shrink');
+            $('.navbar-brand img').removeClass('brand-logo-scroll');
+
+        }
+    }
+});
+

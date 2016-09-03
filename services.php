@@ -5,7 +5,7 @@
         <div class="row">
             <div class="col-md-12">
                 <hr>
-                <h2 class="text-center">Pakalpojumi</h2>
+                <h1 class="text-center">Pakalpojumi</h1>
                 <hr>
             </div>
         </div>
@@ -14,7 +14,7 @@
                 <div class="services-layout">
                     <div class="services-layout-padding services-icons" align="center">
                         <i class="fa fa-cogs"></i>
-                        <h3 style="word-wrap: break-word;">Rezerves daļu vairumtirdzniecība</h3>
+                        <h2 style="word-wrap: break-word;">Rezerves daļu vairumtirdzniecība</h2>
                         <p>Piedāvājam oriģinālās un analogās rezerves daļas Eiropas, Japānas, Korejas un Amerikas auto modeļiem
                         </p>
                     </div>
@@ -24,7 +24,7 @@
                 <div class="services-layout">
                     <div class="services-layout-padding services-icons" align="center">
                         <i class="fa fa-truck"></i>
-                        <h3>Rezerves daļu<br>piegāde</h3>
+                        <h2 style="width: 200px">Rezerves daļu piegāde</h2>
                         <p>Ātra rezerves daļu piegāde - divu stundu laikā
                         </p>
                     </div>
@@ -34,7 +34,7 @@
                 <div class="services-layout">
                     <div class="services-layout-padding services-icons" align="center">
                         <i class="fa fa-car"></i>
-                        <h3>Auto noma</h3>
+                        <h2>Auto noma</h2>
                         <p>Piedāvajam iznomāt automašīnu<br><strong>Opel Corsa</strong><br>ar kravas nodalījumu</p>
                         <p>
                             <strong>Izlaiduma gads: </strong>2006<br>

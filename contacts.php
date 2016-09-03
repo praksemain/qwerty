@@ -7,28 +7,37 @@
         <div class="row">
             <div class="col-md-12">
                 <hr>
-                <h2 class="text-center">Kontakti</h2>
+                <h1 class="text-center">Kontakti</h1>
                 <hr>
             </div>
         </div>
         <div class="row">
-            <div class="col-sm-6 col-md-3 contacts-icons" align="center">
+            <div class="col-sm-6 col-md-4 contacts-icons" align="center">
                 <i class="glyphicon glyphicon-earphone"></i>
-                <h3>Kontakttālrunis</h3><p>+371 29 101 900</p>
+                <h2>Kontakttālrunis</h2><p>+371 29 101 900</p>
             </div>
-            <div class="col-sm-6 col-md-3 contacts-icons" align="center">
+            <div class="col-sm-6 col-md-4 contacts-icons" align="center">
                 <i class="glyphicon glyphicon-envelope"></i>
-                <h3>E-pasts</h3><p>info@mainark.lv</p>
-                <!-- <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#ContactModal">Nosūtīt ziņu</button> -->
+                <h2>E-pasts</h2><p>info@mainark.lv</p>
+                <!--<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#ContactModal">Nosūtīt ziņu</button> -->
             </div>
-            <div class="col-sm-6 col-md-3 contacts-icons" align="center">
+            <div class="col-sm-6 col-md-4 contacts-icons" align="center">
+                <i class="fa fa-clock-o" aria-hidden="true"></i>
+                <h2>Darba laiks</h2>
+                <p><strong>Darba dienās</strong> - no 9:00 līdz 18:00<br><strong>Sestdienās, svētdienās</strong> - brīvs</p>
+            </div>
+            <div class="col-sm-6 col-md-4 contacts-icons" align="center">
                 <i class="glyphicon glyphicon-map-marker"></i>
-                <h3>Adrese</h3><p><strong>Faktiskā:</strong><br>Vienības gatve 20B <br> Rīga, LV-1004</p>
-                <p><strong>Juridiskā:</strong><br>Nogāzes iela 2B-47 <br> Ogre, Ogres nov., LV-5001</p>
+                <h2>Juridiskā adrese</h2>
+                <p>Nogāzes iela 2B-47 <br> Ogre, Ogres nov., LV-5001</p>
             </div>
-            <div class="col-sm-6 col-md-3 contacts-icons" align="center">
+            <div class="col-sm-6 col-md-4 contacts-icons" align="center">
+                <i class="glyphicon glyphicon-map-marker"></i>
+                <h2>Faktiskā adrese</h2><p>Vienības gatve 20B <br> Rīga, LV-1004</p>
+            </div>
+            <div class="col-sm-6 col-md-4 contacts-icons" align="center">
                 <i class="glyphicon glyphicon-list"></i>
-                <h3>Rekvizīti</h3><p><strong>SIA "Mainark"</strong><br><strong>Reģ.nr.: </strong>LV50103657541<br><strong>A/S SWEDBANK kods: </strong>HABALV22<br><strong>Konts: </strong>LV03HABA0551036383790
+                <h2>Rekvizīti</h2><p><strong>SIA Mainark</strong><br><strong>Reģ.nr.: </strong>LV50103657541<br><strong>A/S SWEDBANK kods: </strong>HABALV22<br><strong>Konts: </strong>LV03HABA0551036383790
                 </p>
             </div>
         </div>
@@ -41,7 +50,7 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h3 class="modal-title" align="center">Nosūtīt ziņu</h3>
+                <h2 class="modal-title" align="center">Nosūtīt ziņu</h2>
             </div>
             <div class="modal-body">
                 <form id="ContactForm" class="form-horizontal" role="form" method="post">

@@ -5,7 +5,7 @@
         <div class="row" id="section-title">
             <div class="col-md-12">
                 <hr>
-                <h2 class="text-center">Par mums</h2>
+                <h1 class="text-center">Par mums</h1>
                 <hr>
             </div>
         </div>

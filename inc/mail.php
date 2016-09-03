@@ -4,25 +4,25 @@ if (isset($_POST["submit1"])) {
     $email = $_POST['email'];
     $phonenumber = $_POST['phoneNumber'];
     $message = $_POST['message'];
-    $from = 'Mainark.lv kontaktforma';
-    $to = 'jurmalina68@inbox.lv';
-    $subject = 'Jauna ziņa';
+    $from = 'Jauna ziņa';
+    $to = 'info@mainark.lv';
+    $subject = 'Jauna ziņa - Mainark.lv kontaktforma';
 
-    $body = "No: $name\n Kontakttālrunis: $phonenumber\n E-pasts: $email\n Ziņa:\n $message";
+    $body = "No: $name\n\nKontakttālrunis: $phonenumber\n\nE-pasts: $email\n\nZiņa:\n\n$message";
 
     if (!$_POST['name']) {
         $errName = 'Lūdzu ievadiet savu vārdu!';
     }
 
-    if (!$_POST['phoneNumber']) {
+    if (!$_POST['phoneNumber'] || preg_match("^[0-9]+$",$phonenumber)) {
         $errPhoneNumber = 'Lūdzu ievadiet derīgu kontakttālruni!';
     }
 
-    if (!$_POST['email']) {
+    if (!$_POST['email'] || !filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
         $errEmail = 'Lūdzu ievadiet derīgu e-pasta adresi!';
     }
 
-    if (!$_POST['message']) {
+    if (!$_POST['message'] || strlen($message)>1000) {
         $errMessage = 'Lūdzu ievadiet ziņu!';
     }
 
